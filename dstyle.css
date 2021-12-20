@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-image: url("src/bg1.jpg");
+    /* -webkit-background-size: cover; */
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+    
+}
+
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+
+
+
+
+h6 a{
+    color: white;
+}
+h6{
+    font-size: 27px;
+    color: white;
+}
+
+
+.nav-area {
+    list-style: none;
+    
+}
+
+.nav-area li{
+    display: inline-block;
+    padding: 0px 15px;
+    text-transform: uppercase;
+}
+
+.nav-area li a{
+    transition: .3s;
+    color: #fff;
+}
+
+.nav-area li a:hover{
+    
+    color: #d22938;
+}
+
+.btn-area{
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #d22938;
+}
+
+#navbar{
+    color: #d22938;
+    border: 1px solid blueviolet;
+    overflow: hidden;
+}
+
+.line{
+    display: block;
+    width: 100vw;
+    height: 1px;
+    border-bottom: 1px solid #d22938;
+    position: absolute;
+    border-style: dashed;
+} 
+
+#dimg{
+    display: block;
+    margin: 36px auto;
+    
+    width: 60vw ;
+    height: 50vh;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+
+h5{
+    color: white;
+    height: 100%;
+    width: 100vw;
+    padding: 13px 30px;
+    align-items: center;
+    border: 1px solid white;
+    /* border-right: 1px solid white; */
+    text-align: center;
+    
+    background-color: rgba(0, 0, 0, 0.418);
+}
+
+h5:hover{
+    cursor: pointer;
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.menu{
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content:center; 
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+.details{
+    background-color: rgba(0, 0, 0, 0.418); 
+    width: 60vw;
+    margin: auto auto;
+}
+
+
+h1{
+    word-spacing: 5px;
+    margin: 13px;
+    margin-bottom: 3px;
+    padding: 2px 13px;
+    display: inline-block;
+    background-color: #d22938;
+    border-radius: 3px;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+text-transform: capitalize;
+    word-spacing: 5px;
+    margin: 13px;
+    margin-top: 3px;
+    color: white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 13px 13px;
+    
+}
+
+.countdown{
+    display: block;
+    font-size: 63px;
+    text-align: center;
+    padding: 5px 20px ;
+    color: white;
+}
+
+
+
+/* ------------------responsive css------------------- */
+
+@media screen and (max-width : 565px){
+
+  
+
+    .nav-area{
+        display: inline-block;
+        padding: 0px 3px; 
+         text-transform: uppercase; 
+        display: none; 
+    } 
+
+    .checkbtn{
+        display: block;
+        font-size: 23px;
+        margin-left: 12px;
+    }
+
+    .nav-area li a{
+        font-size: 23px;
+    }
+
+    h6 a{
+        font-size: 20px;
+        margin-right: 12px;
+    }
+
+    header{
+        padding: 12px 12px;
+    }
+
+    .btn-area{
+        padding: 5px 15px;
+        font-size: 16px;
+        margin-right: 12px;
+    }
+
+    h5{
+        padding: 5px 5px;
+    }
+
+   .countdown{font-size: 33px;}
+
+}
+
+@media screen and (max-width : 870px){
+    .menu{
+        width: 90%;
+    }
+
+    #dimg{
+        width: 80vw;
+    }
+}

@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("src/bg1.jpg");
+    /* -webkit-background-size: cover; */
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+h6 a{
+    color: white;
+}
+h6{
+    font-size: 27px;
+    color: white;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+
+}
+
+h1 a{
+    color: white;
+}
+
+.nav-area {
+    list-style: none;
+
+}
+
+.nav-area li{
+    display: inline-block;
+    padding: 0px 15px;
+    text-transform: uppercase;
+}
+
+.nav-area li a{
+    transition: .3s;
+    color: #fff;
+}
+
+.nav-area li a:hover{
+    
+    color: #d22938;
+}
+
+.btn-area{
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #d22938;
+}
+
+#navbar{
+    color: #d22938;
+    border: 1px solid blueviolet;
+}
+
+ .line{
+    display: block;
+    width: 100vw;
+    height: 1px;
+    border-bottom: 1px solid #d22938;
+    position: absolute;
+    border-style: dashed;
+    } 
+
+.container{
+   padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+   
+}
+
+.tournaments{
+    display: inline-block;
+    width: 40vw;
+    height: 40vh;
+    border: 2px solid white;
+}
+.leauges{
+    display: inline-block;
+    width: 40vw;
+    height: 40vh;
+    border: 2px solid white;
+}
+
+.container .tournaments ul #title{
+    color: #d22938;
+    font-size: 33px;
+    text-align: center;
+    margin: 3px;
+    
+    
+}
+.container .leauges ul #title{
+    color: #d22938;
+    font-size: 33px;
+    text-align: center;
+    margin: 3px;
+    
+}
+
+.container  ul li{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 22px;
+    color: white;
+    padding: 9px 0px;
+
+}
+
+.container  ul .event{
+    background-color: rgba(0, 0, 0, 0.418);
+}
+
+h1{
+    background-color: white ;
+}
+
+
